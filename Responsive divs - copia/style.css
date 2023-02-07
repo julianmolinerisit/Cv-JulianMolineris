@@ -1,0 +1,23 @@
+.flexbox-container{
+    display: flex;
+}
+.fixed-height-500{
+    height: 500px;
+}
+.flexbox-container.wrap{
+    flex-wrap: wrap;
+    justify-content:center;
+    display: flex;
+}
+.flexbox-container.column{
+    flex-direction: column;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    margin: 6px;
+}
+
+.box{
+    background-color: black;
+}
